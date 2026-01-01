@@ -1,9 +1,8 @@
 //
 //  SourceEditorExtension.swift
-//  xcodetrophiesextension
+//  extension
 //
-//  Created by Richard Robinson on 9/7/20.
-//  Copyright © 2020 WEBDMG. All rights reserved.
+//  Created by Richard Robinson on 12/31/25.
 //
 
 import Foundation
