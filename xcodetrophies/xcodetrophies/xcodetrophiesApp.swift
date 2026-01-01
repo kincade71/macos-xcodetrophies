@@ -1,17 +1,17 @@
 //
-//  xcodetrophiesApp.swift
-//  xcodetrophies
+//  XcodeTrophiesApp.swift
+//  XcodeTrophies
 //
-//  Created by Richard Robinson on 12/31/25.
+//  Companion macOS app entry point.
 //
 
 import SwiftUI
 
 @main
-struct xcodetrophiesApp: App {
+struct XcodeTrophiesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
         }
     }
 }

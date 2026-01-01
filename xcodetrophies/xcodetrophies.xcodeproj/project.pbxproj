@@ -22,6 +22,8 @@
 		07C31ED92F05E2EE0040A4A9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECB2F05E2860040A4A9 /* Models.swift */; };
 		07C31EDA2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */; };
 		07C31EDB2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */; };
+		07CA14DE2F05F709006DEE6F /* DateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA14DD2F05F6FF006DEE6F /* DateKey.swift */; };
+		07CA14DF2F05F709006DEE6F /* DateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA14DD2F05F6FF006DEE6F /* DateKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 		07C31ECD2F05E2A20040A4A9 /* AchievementsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsCatalog.swift; sourceTree = "<group>"; };
 		07C31ECE2F05E2B80040A4A9 /* AchievementsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsEngine.swift; sourceTree = "<group>"; };
 		07C31ECF2F05E2CA0040A4A9 /* UpdateSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSignal.swift; sourceTree = "<group>"; };
+		07CA14DD2F05F6FF006DEE6F /* DateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -139,6 +142,7 @@
 		07C31EC92F05E25E0040A4A9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				07CA14DD2F05F6FF006DEE6F /* DateKey.swift */,
 				07C31ECF2F05E2CA0040A4A9 /* UpdateSignal.swift */,
 				07C31ECE2F05E2B80040A4A9 /* AchievementsEngine.swift */,
 				07C31ECD2F05E2A20040A4A9 /* AchievementsCatalog.swift */,
@@ -259,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C31ED42F05E2E40040A4A9 /* AchievementsCatalog.swift in Sources */,
+				07CA14DF2F05F709006DEE6F /* DateKey.swift in Sources */,
 				07C31ED22F05E2DE0040A4A9 /* AchievementsEngine.swift in Sources */,
 				07C31ED62F05E2E90040A4A9 /* StatsStore.swift in Sources */,
 				07C31EDA2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */,
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CA14DE2F05F709006DEE6F /* DateKey.swift in Sources */,
 				07C31ED52F05E2E40040A4A9 /* AchievementsCatalog.swift in Sources */,
 				07C31ED32F05E2DE0040A4A9 /* AchievementsEngine.swift in Sources */,
 				07C31ED72F05E2E90040A4A9 /* StatsStore.swift in Sources */,

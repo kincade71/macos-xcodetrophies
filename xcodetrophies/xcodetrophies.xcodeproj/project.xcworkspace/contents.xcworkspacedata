@@ -4,4 +4,10 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:XcodeTrophiesExtension.entitlements">
+   </FileRef>
+   <FileRef
+      location = "group:XcodeTrophies.entitlements">
+   </FileRef>
 </Workspace>
