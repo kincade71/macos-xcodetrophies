@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075B79FF2F062EEC00DB7104 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B79FE2F062EEC00DB7104 /* XcodeKit.framework */; };
+		075B7A002F062EEC00DB7104 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 075B79FE2F062EEC00DB7104 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13D597357F7B55F37BE27F78 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E848AE83DFFDC4C9727B7 /* AppGroup.swift */; };
+		1C040AE1E5F7DEEE11803340 /* ActionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D844299CCDDA66C5CAE77A5 /* ActionTracker.swift */; };
+		2E609C55C1BFDD1926071D64 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A49FE3E15D607441BC9C4 /* DashboardView.swift */; };
+		3A876A4014A2D0345924A616 /* MetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CDE90BFD074058EBFACA /* MetricsStore.swift */; };
+		7E5F2783B66B6C155C2F90D4 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804BDA8ADF6E0CC30BBD0B4B /* SourceEditorCommand.swift */; };
+		80DCAB1E019F34970FDF7496 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC847B41C0FBD9A9293BC479 /* SourceEditorExtension.swift */; };
+		875EAEC5A2167D9CD2CBB416 /* XcodeTrophiesExtension.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8F4BB60237548DD349E66F00 /* XcodeTrophiesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		973529876391516C2978577F /* MetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0CDE90BFD074058EBFACA /* MetricsStore.swift */; };
+		AF808D85B1D6C8D817EB4FB9 /* XcodeTrophiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8378229EECE280739871942 /* XcodeTrophiesApp.swift */; };
+		B29B7424BD03832A94FCB65D /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4E848AE83DFFDC4C9727B7 /* AppGroup.swift */; };
+		D15823D57220C90BDAD6488C /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC7C20B9515C64EFA13B6E /* StatsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7E0D16602B31C79A11E3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F97447A92B9A8E9894622B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8587A1594A5723CB457FEA44;
+			remoteInfo = XcodeTrophiesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		075B7A012F062EEC00DB7104 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				075B7A002F062EEC00DB7104 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930D7817039E193CD3A202B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				875EAEC5A2167D9CD2CBB416 /* XcodeTrophiesExtension.appex in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		075B79FE2F062EEC00DB7104 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		0795DC682F06231800D23E7A /* XcodeTrophies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeTrophies.entitlements; sourceTree = "<group>"; };
+		0795DC692F06233100D23E7A /* XcodeTrophiesExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XcodeTrophiesExtension.entitlements; sourceTree = "<group>"; };
+		12170AECA6C84E26C3EA517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C0CDE90BFD074058EBFACA /* MetricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsStore.swift; sourceTree = "<group>"; };
+		340A49FE3E15D607441BC9C4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		804BDA8ADF6E0CC30BBD0B4B /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		8D844299CCDDA66C5CAE77A5 /* ActionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTracker.swift; sourceTree = "<group>"; };
+		8F4BB60237548DD349E66F00 /* XcodeTrophiesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XcodeTrophiesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		950A864839DA3349B1E066ED /* XcodeTrophies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeTrophies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDC7C20B9515C64EFA13B6E /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		CC847B41C0FBD9A9293BC479 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		D8378229EECE280739871942 /* XcodeTrophiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTrophiesApp.swift; sourceTree = "<group>"; };
+		DA4E848AE83DFFDC4C9727B7 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		E725EEE241D385D831F30F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA60E00432AC021535E745EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C452A09E6F8D504D8A1A5296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075B79FF2F062EEC00DB7104 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075B79FD2F062EEC00DB7104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				075B79FE2F062EEC00DB7104 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF010E858BFEBA0503B7BBC /* XcodeTrophiesApp */ = {
+			isa = PBXGroup;
+			children = (
+				E725EEE241D385D831F30F58 /* Info.plist */,
+				D8378229EECE280739871942 /* XcodeTrophiesApp.swift */,
+				340A49FE3E15D607441BC9C4 /* DashboardView.swift */,
+				AFDC7C20B9515C64EFA13B6E /* StatsView.swift */,
+			);
+			path = XcodeTrophiesApp;
+			sourceTree = "<group>";
+		};
+		2F2A46E687FF50924180B696 = {
+			isa = PBXGroup;
+			children = (
+				0795DC682F06231800D23E7A /* XcodeTrophies.entitlements */,
+				1FF010E858BFEBA0503B7BBC /* XcodeTrophiesApp */,
+				5E453B5EC9E42D29FDE5E71C /* XcodeTrophiesExtension */,
+				487087148707A72AF20E310D /* Shared */,
+				075B79FD2F062EEC00DB7104 /* Frameworks */,
+				409C420FB8850E0580B55422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		409C420FB8850E0580B55422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950A864839DA3349B1E066ED /* XcodeTrophies.app */,
+				8F4BB60237548DD349E66F00 /* XcodeTrophiesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487087148707A72AF20E310D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				28C0CDE90BFD074058EBFACA /* MetricsStore.swift */,
+				DA4E848AE83DFFDC4C9727B7 /* AppGroup.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5E453B5EC9E42D29FDE5E71C /* XcodeTrophiesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0795DC692F06233100D23E7A /* XcodeTrophiesExtension.entitlements */,
+				12170AECA6C84E26C3EA517D /* Info.plist */,
+				CC847B41C0FBD9A9293BC479 /* SourceEditorExtension.swift */,
+				804BDA8ADF6E0CC30BBD0B4B /* SourceEditorCommand.swift */,
+				8D844299CCDDA66C5CAE77A5 /* ActionTracker.swift */,
+			);
+			path = XcodeTrophiesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BBE7F35718CFA5B4BFF743 /* XcodeTrophies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C745BBFAEBF8F422A942CC /* Build configuration list for PBXNativeTarget "XcodeTrophies" */;
+			buildPhases = (
+				6D51C71579BB879C3C128BE8 /* Sources */,
+				BA60E00432AC021535E745EC /* Frameworks */,
+				BCC3F2FE9FA7A4F754944010 /* Resources */,
+				930D7817039E193CD3A202B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77DCAFE33D0CEFEDC693B948 /* PBXTargetDependency */,
+			);
+			name = XcodeTrophies;
+			productName = XcodeTrophies;
+			productReference = 950A864839DA3349B1E066ED /* XcodeTrophies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8587A1594A5723CB457FEA44 /* XcodeTrophiesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC964A8CC1674ECDBB0F6889 /* Build configuration list for PBXNativeTarget "XcodeTrophiesExtension" */;
+			buildPhases = (
+				1B636B144317758A2AB66010 /* Sources */,
+				C452A09E6F8D504D8A1A5296 /* Frameworks */,
+				075B7A012F062EEC00DB7104 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeTrophiesExtension;
+			productName = XcodeTrophiesExtension;
+			productReference = 8F4BB60237548DD349E66F00 /* XcodeTrophiesExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F97447A92B9A8E9894622B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = WEBDMG;
+				TargetAttributes = {
+					28BBE7F35718CFA5B4BFF743 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8587A1594A5723CB457FEA44 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 2F0A1B14CED4D32CFEFAA3C3 /* Build configuration list for PBXProject "XcodeTrophies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F2A46E687FF50924180B696;
+			productRefGroup = 409C420FB8850E0580B55422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BBE7F35718CFA5B4BFF743 /* XcodeTrophies */,
+				8587A1594A5723CB457FEA44 /* XcodeTrophiesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC3F2FE9FA7A4F754944010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B636B144317758A2AB66010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DCAB1E019F34970FDF7496 /* SourceEditorExtension.swift in Sources */,
+				7E5F2783B66B6C155C2F90D4 /* SourceEditorCommand.swift in Sources */,
+				1C040AE1E5F7DEEE11803340 /* ActionTracker.swift in Sources */,
+				3A876A4014A2D0345924A616 /* MetricsStore.swift in Sources */,
+				B29B7424BD03832A94FCB65D /* AppGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D51C71579BB879C3C128BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF808D85B1D6C8D817EB4FB9 /* XcodeTrophiesApp.swift in Sources */,
+				2E609C55C1BFDD1926071D64 /* DashboardView.swift in Sources */,
+				D15823D57220C90BDAD6488C /* StatsView.swift in Sources */,
+				973529876391516C2978577F /* MetricsStore.swift in Sources */,
+				13D597357F7B55F37BE27F78 /* AppGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77DCAFE33D0CEFEDC693B948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8587A1594A5723CB457FEA44 /* XcodeTrophiesExtension */;
+			targetProxy = EE7E0D16602B31C79A11E3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3A2EFFC34935C44D74631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		755033CAAE3BE8C31F7B041E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A0C1A2B817CE664CBAA1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XcodeTrophiesExtension/XcodeTrophiesExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PU85VZT37;
+				INFOPLIST_FILE = XcodeTrophiesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdmg.xcodetrophies.extension;
+				PRODUCT_NAME = XcodeTrophiesExtension;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8522B1FF2A99EEEDE2B73CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XcodeTrophies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3PU85VZT37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XcodeTrophiesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdmg.xcodetrophies;
+				PRODUCT_NAME = XcodeTrophies;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AFB9BAEC42A37396B83ECEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XcodeTrophies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3PU85VZT37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XcodeTrophiesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdmg.xcodetrophies;
+				PRODUCT_NAME = XcodeTrophies;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F496EFF5F2FFE3D2653306D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XcodeTrophiesExtension/XcodeTrophiesExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PU85VZT37;
+				INFOPLIST_FILE = XcodeTrophiesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdmg.xcodetrophies.extension;
+				PRODUCT_NAME = XcodeTrophiesExtension;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0A1B14CED4D32CFEFAA3C3 /* Build configuration list for PBXProject "XcodeTrophies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755033CAAE3BE8C31F7B041E /* Debug */,
+				0D3A2EFFC34935C44D74631C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC964A8CC1674ECDBB0F6889 /* Build configuration list for PBXNativeTarget "XcodeTrophiesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0C1A2B817CE664CBAA1A34 /* Debug */,
+				F496EFF5F2FFE3D2653306D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C745BBFAEBF8F422A942CC /* Build configuration list for PBXNativeTarget "XcodeTrophies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB9BAEC42A37396B83ECEB5 /* Debug */,
+				8522B1FF2A99EEEDE2B73CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F97447A92B9A8E9894622B /* Project object */;
+}
