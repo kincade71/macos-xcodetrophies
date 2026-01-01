@@ -17,12 +17,22 @@ final class DashboardVM: ObservableObject {
     private var updateObserver: NSObjectProtocol?
 
     func start() {
+        // Ingest any events that may have been queued while the app was not running.
+        let earned = StatsIngestor.ingestPendingEvents()
+        if !earned.isEmpty {
+            NotificationManager.shared.notifyForNewAchievements(earned)
+        }
+
         // Initial load
         state = StatsStore.shared.load()
 
         // Refresh when the extension writes + posts UpdateSignal
         updateObserver = UpdateSignal.observe { [weak self] in
             guard let self else { return }
+            let earned = StatsIngestor.ingestPendingEvents()
+            if !earned.isEmpty {
+                NotificationManager.shared.notifyForNewAchievements(earned)
+            }
             self.state = StatsStore.shared.load()
         }
     }

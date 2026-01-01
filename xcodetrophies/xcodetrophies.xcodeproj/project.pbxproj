@@ -22,6 +22,10 @@
 		07C31ED92F05E2EE0040A4A9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECB2F05E2860040A4A9 /* Models.swift */; };
 		07C31EDA2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */; };
 		07C31EDB2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */; };
+		07FB83988F3A414A82EEAE40 /* EventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F8D34A0645DFA11316E1 /* EventQueue.swift */; };
+		0E1F67BBC5BA4C10A761B04A /* StatsIngestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DA2AF33954FF1B7FF787D /* StatsIngestor.swift */; };
+		249FBC105A5D43F1A9D22E2C /* EventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F8D34A0645DFA11316E1 /* EventQueue.swift */; };
+		01262744A8CA4F39AD4DB51D /* StatsIngestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DA2AF33954FF1B7FF787D /* StatsIngestor.swift */; };
 		07CA14DE2F05F709006DEE6F /* DateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA14DD2F05F6FF006DEE6F /* DateKey.swift */; };
 		07CA14DF2F05F709006DEE6F /* DateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA14DD2F05F6FF006DEE6F /* DateKey.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +60,8 @@
 		07C31EB52F05E1B90040A4A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		07C31EB72F05E1BA0040A4A9 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupPaths.swift; sourceTree = "<group>"; };
+		22B1F8D34A0645DFA11316E1 /* EventQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventQueue.swift; sourceTree = "<group>"; };
+		322DA2AF33954FF1B7FF787D /* StatsIngestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsIngestor.swift; sourceTree = "<group>"; };
 		07C31ECB2F05E2860040A4A9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		07C31ECC2F05E2900040A4A9 /* StatsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsStore.swift; sourceTree = "<group>"; };
 		07C31ECD2F05E2A20040A4A9 /* AchievementsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsCatalog.swift; sourceTree = "<group>"; };
@@ -149,6 +155,8 @@
 				07C31ECC2F05E2900040A4A9 /* StatsStore.swift */,
 				07C31ECB2F05E2860040A4A9 /* Models.swift */,
 				07C31ECA2F05E2770040A4A9 /* AppGroupPaths.swift */,
+				22B1F8D34A0645DFA11316E1 /* EventQueue.swift */,
+				322DA2AF33954FF1B7FF787D /* StatsIngestor.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -267,6 +275,8 @@
 				07C31ED22F05E2DE0040A4A9 /* AchievementsEngine.swift in Sources */,
 				07C31ED62F05E2E90040A4A9 /* StatsStore.swift in Sources */,
 				07C31EDA2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */,
+				07FB83988F3A414A82EEAE40 /* EventQueue.swift in Sources */,
+				0E1F67BBC5BA4C10A761B04A /* StatsIngestor.swift in Sources */,
 				07C31ED02F05E2D90040A4A9 /* UpdateSignal.swift in Sources */,
 				07C31ED82F05E2EE0040A4A9 /* Models.swift in Sources */,
 			);
@@ -281,6 +291,8 @@
 				07C31ED32F05E2DE0040A4A9 /* AchievementsEngine.swift in Sources */,
 				07C31ED72F05E2E90040A4A9 /* StatsStore.swift in Sources */,
 				07C31EDB2F05E2F30040A4A9 /* AppGroupPaths.swift in Sources */,
+				249FBC105A5D43F1A9D22E2C /* EventQueue.swift in Sources */,
+				01262744A8CA4F39AD4DB51D /* StatsIngestor.swift in Sources */,
 				07C31ED12F05E2D90040A4A9 /* UpdateSignal.swift in Sources */,
 				07C31ED92F05E2EE0040A4A9 /* Models.swift in Sources */,
 			);

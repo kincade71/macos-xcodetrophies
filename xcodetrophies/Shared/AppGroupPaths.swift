@@ -8,7 +8,10 @@
 import Foundation
 
 enum AppGroupPaths {
-    static let groupID = "group.com.webdmg.xcodetrophies"
+    /// App Group used by BOTH the companion macOS app and the Xcode Source Editor Extension.
+    ///
+    /// This must match the value in BOTH targets' entitlements.
+    static let groupID = "group.com.webdmg.xcodextension"
 
     static var containerURL: URL {
         guard let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupID) else {
@@ -19,5 +22,9 @@ enum AppGroupPaths {
 
     static var statsFileURL: URL {
         containerURL.appendingPathComponent("stats.json")
+    }
+
+    static var eventsFileURL: URL {
+        containerURL.appendingPathComponent("events.json")
     }
 }

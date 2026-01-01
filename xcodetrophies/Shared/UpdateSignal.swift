@@ -3,7 +3,8 @@ import Foundation
 /// Distributed notification used to signal that the shared StatsState changed.
 /// This allows the Xcode extension to "poke" the companion app to refresh.
 enum UpdateSignal {
-    static let name = Notification.Name("MilestonesStatsDidUpdate")
+    /// Use a reverse-DNS style name to avoid collisions with other apps/extension.
+    static let name = Notification.Name("com.webdmg.xcodetrophies.statsDidUpdate")
 
     static func post() {
         DistributedNotificationCenter.default().post(name: name, object: nil)

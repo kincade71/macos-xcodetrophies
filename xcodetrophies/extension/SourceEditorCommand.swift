@@ -25,11 +25,11 @@ final class TrackBuildCommand: NSObject, XCSourceEditorCommand {
             ]
         )
 
-        _ = StatsStore.shared.update { state in
-            _ = AchievementsEngine.apply(event: event, to: &state)
-        }
+        // Enqueue for the companion app to ingest. This keeps the extension "dumb"
+        // and lets the app own persistence, achievements, and notifications.
+        EventQueue.enqueue(event)
 
-        // Nudge companion app to refresh.
+        // Nudge companion app to refresh (if running).
         UpdateSignal.post()
 
         completionHandler(nil)
@@ -49,9 +49,7 @@ final class TrackTestCommand: NSObject, XCSourceEditorCommand {
             ]
         )
 
-        _ = StatsStore.shared.update { state in
-            _ = AchievementsEngine.apply(event: event, to: &state)
-        }
+        EventQueue.enqueue(event)
 
         UpdateSignal.post()
 
